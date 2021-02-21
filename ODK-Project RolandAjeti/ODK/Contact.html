@@ -1,0 +1,68 @@
+<html>
+  <head>
+    <title>Contact Us</title>
+    <meta charset="UTF-8" >
+    <link rel="stylesheet" href="../ODK/assets/css/contact.css" >
+  </head>
+  <body> 
+    <div class="container">
+      <div class="form">
+        <div class="contact-info">
+          <h3 class="title">Let's get in touch</h3>
+          <p class="text" id="demo"></p>
+          <div class="info">
+            <div class="information">
+              <img src="../ODK/assets/images/location.png" class="icon" alt="" >
+              <p id="text"></p>
+            </div>
+            <div class="information">
+              <img src="../ODK/assets/images/email.png" class="icon" alt="" >
+              <p id="information"></p>
+            </div>
+            <div class="information">
+              <img src="../ODK/assets/images/phone.png" class="icon" alt="" >
+              <p id="phone"></p>
+            </div>
+          </div>
+          <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2943.0986711203764!2d21.453904415128903!3d42.46819007917978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDLCsDI4JzA1LjUiTiAyMcKwMjcnMjEuOSJF!5e0!3m2!1sen!2s!4v1609958391131!5m2!1sen!2s" width="250" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          </div>
+          
+        </div>
+
+        <div class="contact-form">
+          <span class="circle one"></span>
+          <span class="circle two"></span>
+
+          <form action="index.html" method="POST">
+            <h3 class="title">Contact us</h3>
+            <div class="input-container">
+              <input type="text" name="name" class="input" required >
+              <label for="">Username</label>
+              <span>Username</span>
+            </div>
+            <div class="input-container">
+              <input type="email" name="email" class="input"  required>
+              <label for="">Email</label>
+              <span>Email</span>
+            </div>
+            <div class="input-container">
+              <input type="tel" name="phone" class="input"  required>
+              <label for="">Phone</label>
+              <span>Phone</span>
+            </div>
+            <div class="input-container textarea">
+              <textarea name="message" class="input"></textarea>
+              <label for="">Message</label>
+              <span>Message</span>
+            </div>
+            <input type="submit" value="Send" class="btn" >
+          </form>
+        </div>
+      </div>
+    </div>
+
+    
+    <script src="../ODK/assets/js/contactform.js"></script>
+  </body>
+</html>
